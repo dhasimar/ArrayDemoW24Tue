@@ -11,6 +11,7 @@ package arraydemow24tue;
 public class Student {
     private int sid;
     private String sname;
+    private String Address;
 
     public Student(int sid, String sname) {
         this.sid = sid;
@@ -33,6 +34,20 @@ public class Student {
 
     public void setSname(String sname) {
         this.sname = sname;
+    }
+
+    /**
+     * @return the Address
+     */
+    public String getAddress() {
+        return Address;
+    }
+
+    /**
+     * @param Address the Address to set
+     */
+    public void setAddress(String Address) {
+        this.Address = Address;
     }
     
     
